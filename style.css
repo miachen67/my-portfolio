@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --yellow: #FFFAEC;
+    --yellower: #FDEFCA;
+    --pink: #FCC1B4;
+    --blackish: #0F0326;
+}
+
+body{
+    background-color: var(--yellow);
+    cursor: url(circle-solid.svg), auto;
+}
+
+.nav{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-items{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--pink);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--blackish);
+    cursor: url(circle-solid-lg.svg), auto;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #75707E;
+}
+
+.landing-page{
+    padding-top: 30vh;
+    padding-left: 10vw;
+    padding-bottom: 10vh;
+}
+
+#landing-page-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 76px;
+    padding-bottom: 20px;
+    color: var(--blackish);
+}
+
+#landing-page-sub{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #75707E;
+}
+
+.page{
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 3vh;
+}
+
+.block{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: var(--yellower);
+    padding: 15px;
+    margin-top: 15px;
+    margin-right: 10vw;
+    border-radius: 20px;
+}
+
+.block h5{
+    padding-bottom: 5px;
+}
+
+.block p{
+    padding-bottom: 5px;
+}
+
+.date{
+    font-style: italic;
+    color: #75707E;
+}
+
+.view{
+    background-color: var(--pink);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contact{
+    padding-bottom: 3vh;
+}
